@@ -1,0 +1,66 @@
+
+body {
+    height: 100%;
+}
+.logo{
+    width: 50%;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+}
+
+.text{
+    border-radius: 0.5em;
+    border: 1px solid #c7c9c4;
+    background:-webkit-linear-gradient(0deg, rgb(81, 94, 81) 6%, rgba(102, 131, 102, 1) 60%, rgb(88, 160, 92));
+    padding: 0.8em;
+    width: 70%;
+    margin-bottom: 22vh;
+    margin-top: 5vh;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+}
+
+.text h2 {
+    color: rgb(231, 220, 220);
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.text h2:last-child {
+    margin-top: 3vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.btn{
+    color: white;
+    background-color: #40ae49;
+    border-radius: 0.8em;
+    border-color: #559755;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+}
+
+
+
+.btn:hover {
+    background-position: 100% 0;
+    background-color: #298430;
+    border-color: #559755;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:focus {
+    outline: none;
+}

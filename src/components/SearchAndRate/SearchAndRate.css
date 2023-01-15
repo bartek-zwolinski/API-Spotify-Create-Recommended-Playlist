@@ -1,0 +1,111 @@
+.form-group {
+   margin-top: 5vh;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.page-header{
+    border-radius: 0.5em;
+    border: 1px solid #c7c9c4;
+    background:-webkit-linear-gradient(0deg, rgb(81, 94, 81) 6%, rgba(102, 131, 102, 1) 60%, rgb(88, 160, 92));
+    padding: 0.8em;
+    width: 80%;
+    margin-bottom: 12vh;
+    margin-top: 6vh;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    color:#e4e8df;
+    font-size: 1.4em;
+    font-weight: 300;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sub {
+    margin-top: 14vh;
+    margin-bottom: 10vh;
+}
+
+
+.card-row{
+    margin-top: -10vh;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10vh;
+
+}
+
+.card {
+    background-color: rgb(209, 219, 206);
+    gap: 10px;
+    width: 50vh;
+    margin-bottom: 7vh;
+    color:rgb(70, 71, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+}
+
+.card-body {
+    width: 100%;
+}
+.img {
+    width: 45vh;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.3em;
+    margin-bottom:3vh;
+    border-bottom: 2px solid rgb(159, 153, 153);
+}
+
+
+.card-subtitle {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-bottom: 1.8vh;
+}
+
+
+.card-subtitle span{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 1.8vh;
+}
+
+.form{
+    margin-top: 5vh;
+    border: 2px solid rgb(159, 153, 153); 
+    margin-bottom: 5vh;
+}
+
+.info {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(159, 153, 153);
+}
+
+
+.card-header{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.back{
+    margin-top: 2vh;
+}

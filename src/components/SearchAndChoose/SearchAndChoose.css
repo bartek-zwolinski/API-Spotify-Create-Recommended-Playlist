@@ -1,0 +1,49 @@
+.page-headers{
+    border-radius: 0.5em;
+    border: 1px solid #c7c9c4;
+    background:-webkit-linear-gradient(0deg, rgb(81, 94, 81) 6%, rgba(102, 131, 102, 1) 60%, rgb(88, 160, 92));
+    padding: 0.8em;
+    width: 80%;
+    margin-bottom: 20vh;
+    margin-top: 6vh;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    box-shadow: 0px 0px 100px 0px rgba(70, 70, 74, 1);
+    color:#e4e8df;
+    font-size: 1.4em;
+    font-weight: 300;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.subm {
+    margin-top: 14vh;
+    margin-bottom: 10vh;    
+}
+
+.cards-row{
+    margin-top: -19vh;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10vh;
+}
+
+.btn-row{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5vh;
+}
+
+.succ{
+width: 100%;
+}
