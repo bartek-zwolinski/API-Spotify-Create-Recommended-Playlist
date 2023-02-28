@@ -6,7 +6,7 @@ This application allows you to create spotify playlist based on rates you will g
 
 ## Live 🎆
 
-Soon on Netlify 
+[Soon on Netlify ](https://spotify-create-recommended-playlist.netlify.app/search-and-choose-tracks)
 
 ## Tech/framework used 🧰
 
